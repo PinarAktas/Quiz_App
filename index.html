@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="purple">
+      <h3 text-align:left>View high score</h3>
+        <div class="timer">
+          <h3 class="time_left_txt" text-align:right>Time: </h3>
+          <h3 class="timer_sec" text-align:right> </h3>
+        </div>
+    </div>
+    <div class="enter_box">
+      <h1><center>Coding Quiz Challange</center></h1>
+      <h6><center>Try to answer the following code-related questions within the time limit.</h6></center>
+      <h6><center>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</h6></center>
+      <h3><center><div class="start_btn"><button>Start Quiz</button></div></center></h3>  
+    </div>  
+  <!-- Quiz Box -->
+    <div class="quiz_box">
+      <section>
+        <div class="que_text">
+             <!-- Here I've inserted question from JavaScript -->
+        </div>
+        <div class="option_list">
+             <!-- Here I've inserted options from JavaScript -->
+        </div>
+      </section>
+
+      <!-- footer of Quiz Box -->
+      <footer>
+        <div class="total_que">
+              <!-- Here I've inserted Question Count Number from JavaScript -->
+        </div>
+      </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+      <div class="complete_text">All done!</div>
+      <div class="score_text">
+          <!-- Here I've inserted Score Result from JavaScript -->
+      </div>
+      <div class="buttons">
+          <button class="goBack">Go Back</button>
+          <button class="quit">Clear high scores</button>
+      </div>
+    </div>
+     <!-- Result Box -->
+    <div class="result_box">
+      <div class="complete_text">All done!</div>
+      <div class="score_text">
+          <!-- Here I've inserted Score Result from JavaScript -->
+      </div>
+      <div class="buttons">
+          <button class="goBack">Go Back</button>
+          <button class="quit">Clear high scores</button>
+      </div>
+    </div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="./script.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>
